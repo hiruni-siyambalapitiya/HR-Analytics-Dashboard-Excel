@@ -3,6 +3,7 @@
        alt="HR Analytics Dashboard Banner"
        width="100%">
 </p>
+
 # HR Analytics Dashboard – Employee Attrition Analysis
 
 ## Project Overview
