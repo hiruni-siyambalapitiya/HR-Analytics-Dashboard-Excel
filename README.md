@@ -56,12 +56,12 @@ HR_Financial_Analysis	  Department salary cost, salary variance vs company avera
  Ran min/max range checks on numeric fields (Age, MonthlyIncome, DailyRate and others).
 
 2. Feature engineering (calculated columns with IFS)
-   New column	              Logic
-    AgeGroup	              18-25, 26-35, 36-45, 46-55, 56+
-    SalaryBand	            Low, Lower-Middle, Upper-Middle, High (by MonthlyIncome)
-    ExperienceCategory	    0-2, 3-5, 6-10, 11-20, 20+ years (by TotalWorkingYears)
-    TenureCategory	        0-2, 3-5, 6-10, 11+ years (by YearsAtCompany)
-
+  | New column | Logic |
+|---|---|
+| `AgeGroup` | 18-25, 26-35, 36-45, 46-55, 56+ |
+| `SalaryBand` | Low, Lower-Middle, Upper-Middle, High (by MonthlyIncome) |
+| `ExperienceCategory` | 0-2, 3-5, 6-10, 11-20, 20+ years (by TotalWorkingYears) |
+| `TenureCategory` | 0-2, 3-5, 6-10, 11+ years (by YearsAtCompany) |
    
 3. Analysis
  Pivot tables for attrition by department, age group, salary band and experience.
