@@ -21,7 +21,7 @@ Which departments, age groups, experience levels and salary bands are most affec
 How does pay relate to leaving, and what does each department cost?
 
 ## Headline KPIs
-KPI	                     Value
+|KPI	     |                Value|
 Total Employees	         1,470
 Active Employees	       1,233
 Employees Left	         237
