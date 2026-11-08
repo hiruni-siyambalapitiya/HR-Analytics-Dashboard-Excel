@@ -5,21 +5,49 @@
 </p>
 
 # HR Analytics Dashboard – Employee Attrition Analysis
+An end-to-end HR analytics project built entirely in Excel. It takes a raw dataset of 1,470 employees and 35 attributes through data cleaning, validation, feature engineering, pivot analysis and financial analysis, and ends with an interactive dashboard on why employees leave and what it costs.
 
-## Project Overview
+## Dashboard Preview
+HR Analytics Dashboard - Excel
 
-This project focuses on analysing employee data to identify workforce trends, understand employee attrition, and generate meaningful HR insights using **Microsoft Excel 365**.
+## Presentation
+A 7-slide presentation summarising the problem, approach, KPIs, key findings and recommendations is included in this repository: HR_Analytics_Dashboard_Presentation.pptx.
 
-The objective is to transform raw HR data into an interactive and visually appealing HR Analytics Dashboard that helps HR professionals understand workforce distribution, employee satisfaction, salary patterns, and employee turnover.
+## Business Problem
+HR leadership wants to understand employee attrition:
 
-## Project Objectives
+How many people are leaving, and is the rate a concern?
+Which departments, age groups, experience levels and salary bands are most affected?
+How does pay relate to leaving, and what does each department cost?
 
-- Analyse overall workforce demographics and employee distribution.
-- Identify employee attrition patterns.
-- Examine attrition across departments, age groups, salary bands, and experience levels.
-- Analyse gender distribution and job satisfaction.
-- Develop an HR dashboard to communicate key workforce metrics.
-- Provide data-driven insights to support HR decision-making.
+## bHeadline KPIs
+KPI	                     Value
+Total Employees	         1,470
+Active Employees	       1,233
+Employees Left	         237
+Attrition Rate	         16.12%
+Average Monthly Salary	 6,502.93
+
+## Key Insights
+
+Early-career and low-tenure staff leave the most. Attrition is about 36% for ages 18-25 and about 44% for people with 0-2 years of total experience.
+It falls steadily with age and experience.
+Sales has the highest attrition rate (about 21%), followed by Human Resources (about 19%). Research & Development has the lowest rate (about 14%) but the largest number of leavers (133 of 237, 56%) because it is the biggest department.
+Pay matters. Leavers earned about 4,787 per month on average, against about 6,833 for those who stayed. The Low salary band loses the highest share of its people.
+Overtime is a strong signal. Attrition is about 30% for employees working overtime, against about 10% for those who do not.
+Frequent travel and being single also show higher attrition (about 25% for both groups).
+
+Percentages are calculated from the HR_Data sheet.
+
+## Project Structure
+Sheet	                  Purpose
+HR_Data	                Original raw dataset (1,470 rows x 35 columns)
+Cleaned_Data	          Cleaned data as an Excel Table (tblHR) with engineered columns
+HR_Analysis	            Data quality report, validation checks and core business KPIs
+Pivot_Analysis	        Pivot tables and charts for attrition by department, age, salary and experience
+HR_Dashboard	          Final dashboard: KPI cards plus attrition and salary charts
+Lookup_Practice	        XLOOKUP, VLOOKUP and INDEX/MATCH demonstrations
+HR_Financial_Analysis	  Department salary cost, salary variance vs company average, management summary
 
 ## Tools & Technologies
 
